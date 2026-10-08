@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Registrasi Pendaftaran Seminar</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Seminar</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        <h2>Data Peserta</h2>
+        <table cellspacing="4" cellpadding="4" border="1" style="border-collapse: collapse;width: 100%;">
+            <tr>
+                <td style="width:32%;">
+                    <label for="namaleng"><strong>Nama Lengkap</strong></label>
+                </td>
+                <td style="width:32%;">
+                    <input type="text" name="namaleng" id="namaleng" size="30" />
+                </td>
+            </tr>
+
+            <tr>
+                <td style="width:32%;">
+                    <label for="nim"><strong>NIM</strong></label>
+                </td>
+                <td style="width:32%;">
+                    <input type="text" name="nim" id="nim" size="30" />
+                </td>
+            </tr>
+
+            <tr>
+                <td style="width:32%;">
+                    <label for="jk"><strong>Jenis Kelamin</strong></label>
+                </td>
+                <td style="width:32%;">
+                    <input type="radio" name="jk" id="laki" value="Laki-Laki" /><label for="laki">Laki-Laki</label>
+                    <input type="radio" name="jk" id="perempuan" value="Perempuan" /><label for="perempuan">Perempuan</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="prodi">
+                        <strong>Program Studi</strong>
+                    </label>
+                </td>
+                <td>
+                    <select name="prodi" id="prodi">
+                        <option>Informatika</option>
+                        <option>Sistem Informasi</option>
+                        <option>Teknik Industri</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <h2>Pilihan Seminar</h2>
+        <table cellspacing="4" cellpadding="4" border="1" style="border-collapse: collapse;width: 100%;">
+            <tr>
+                <td style="width:32%;">
+                    <label for="tiket"><strong>Jenis Tiket</strong></label>
+                </td>
+                <td style="width:32%;">
+                    <input type="radio" name="tiket" id="reguler" value="Reguler" /><label for="laki">Reguler</label>
+                    <input type="radio" name="tiket" id="vip" value="VIP" /><label for="perempuan">VIP</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="width:32%;">
+                    <label for="topik"><strong>Topik Seminar</strong></label>
+                </td>
+                <tr style="width:32%;">
+                    <input type="checkbox" name="topik" id="topik1" value="Web Development" />
+                    <label for="topik1">Web Development</label>
+                </tr>
+                <tr style="width:32%;">
+                    <input type="checkbox" name="topik" id="topik2" value="Data Science" />
+                    <label for="topik2">Data Science</label>
+                </tr>
+                <tr style="width:32%;">
+                    <input type="checkbox" name="topik" id="topik3" value="Artificial Intelligence" />
+                    <label for="topik3">Artificial Intelligence</label>
+                </tr>
+            </tr>
+        </table>
+
+        <h2>Informasi Tambahan</h2>
+        <table cellspacing="4" cellpadding="4" border="1" style="border-collapse: collapse;width: 100%;">
+            <tr>
+                <td style="width:32%;">
+                    <label for="alasan"><strong>Alasan Mengikuti Seminar</strong></label>
+                </td>
+                <td style="width:32%;">
+                    <textarea name="alasan" id="alasan" rows="10" cols="23"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="width:32%;">
+                    <label for="pembayaran"><strong>Bukti Pembayaran</strong></label>
+                </td>
+                <td style="width:32%;">
+                    <input type="file" name="pembayaran" id="pembayaran" size="80" accept="image/gif, image/jpeg, image/png" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center; width: 32%;">
+                    <input type="submit" name="simpan" id="Simpan" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
