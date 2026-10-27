@@ -1,0 +1,138 @@
+body{
+    font-family: monospace;
+    font-size: 15px;
+    background-image: url("star.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#wrap{
+    width: 620px;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid transparent;
+    background:
+        linear-gradient(#17153B, #17153B) padding-box,
+        linear-gradient(to right, #D552A3, #FF70BF, #831C91) border-box;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(124, 77, 255, 0.25);
+    padding: 0 0 25px 0;
+    overflow: hidden;
+}
+
+#header{
+    background-image: linear-gradient(#462C7D, #831C91, #FF70BF);
+    color: white;
+    padding: 25px 30px;
+    line-height: 1.5;
+}
+
+#header h1{
+    margin: 0 0 8px 0;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+#header p{
+    margin: 0;
+    font-size: small;
+    line-height: 1.5;
+}
+
+#header em{
+    font-weight: bold;
+    color: #E3F2FD;
+}
+
+form {
+    margin: 25px 30px 0 30px;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+td {
+    padding: 12px 50px;
+    vertical-align:middle;
+}
+
+tr.Row td{
+    background-color: #17153B;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(5n+1) td.label-kolom{
+    color: white;
+}
+
+tr:nth-child(5n+2) td.label-kolom{
+    color: white;
+}
+
+tr:nth-child(5n+3) td.label-kolom{
+    color: white;
+}
+
+tr:nth-child(5n+4) td.label-kolom{
+    color: white;
+}
+
+tr:nth-child(5n+5) td.label-kolom{
+    color: white;
+}
+
+td.label-kolom{
+    width: 32%;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"], select, textarea{
+    width: 92%;
+    padding: 8px 8px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+select {
+    width: 94.5%;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label{
+    accent-color: #831C91;
+    color: white;
+    text-align: left;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"]{
+    background-image: linear-gradient(90deg, #443199, #792CA2, #E05454);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 100px;
+    cursor: pointer;
+}
+
+td.tombol{
+    text-align: center;
+    padding: 20px;
+}
+
+input[type="submit"]:hover{
+    background-image: linear-gradient(90deg, #FF70BF, #831C91, #D552A3);
+}

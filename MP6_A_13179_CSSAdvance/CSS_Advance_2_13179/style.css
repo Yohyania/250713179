@@ -1,0 +1,110 @@
+body{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 900;
+    line-height: 0.9;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #36ADA3, #232F72, #121358);
+    padding: 30px 0;
+}
+
+#wrap{
+    width: 500px;
+    margin: auto;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 8px 24px #36ADA3;
+    padding: 0 0 30px 0;
+    overflow: hidden;
+    text-align: left;
+}
+
+#header{
+    padding: 25px 30px;
+    line-height: 1.5;
+}
+
+#header h1{
+    margin: 0 0 8px 0;
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+
+#header p{
+    font-family: "Segoe UI Light", "Segoe UI", sans-serif;
+    font-size: small;
+    line-height: 1;
+}
+
+form{
+    margin: 10px 30px 0 30px;
+}
+
+h2{
+    font-size:20px;
+    display: inline-block;
+    background-color: #36ADA3;
+    border-radius: 999px;
+    margin: 10px 0;
+    padding: 6px 24px;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border-spacing: 0;
+}
+
+td{
+    padding: 12px 14px;
+    font-family: "Segoe UI Light", "Segoe UI", sans-serif;
+    font-size:13.5px;
+    vertical-align: middle;
+}
+
+td.label-kolom{
+    width: 32%;
+}
+
+label.pilihan {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+select {
+    width: 94.5%;
+}
+
+input[type="text"], input[type="password"], select, textarea{
+    padding: 6px 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #36ADA3;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    vertical-align: middle;
+    accent-color: #36ADA3;
+}
+
+textarea {
+    resize: vertical;
+    box-shadow: 3px 3px 5px #36ADA3;
+}
+
+input[type="submit"]{
+    background-color: #232F72;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 90px;
+    cursor: pointer;
+    font-family: "Segoe UI Light", "Segoe UI", sans-serif;
+}
+
+input[type="submit"]:hover {
+    background-color: #36ADA3;
+}
